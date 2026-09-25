@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "COMPANY": 101,
+    "ADDRESS": 100,
+    "PERSON": 80,
+    "EMAIL": 100,
+    "PHONE": 100,
+    "DOB": 91,
+    "SSN": 100,
+    "CREDIT_CARD": 100,
+    "IP_ADDRESS": 100
+  },
+  "unique_replacements": 618
+}

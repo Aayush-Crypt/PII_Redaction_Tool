@@ -1,0 +1,548 @@
+{
+  "records": 100,
+  "cells": 1100,
+  "tp": 806,
+  "fp": 65,
+  "fn": 94,
+  "precision": 0.9253731343283582,
+  "recall": 0.8955555555555555,
+  "f1": 0.9102202145680406,
+  "cell_accuracy": 0.9145454545454546,
+  "record_accuracy": 0.25,
+  "per_category": {
+    "ADDRESS": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "COMPANY": {
+      "tp": 94,
+      "fp": 6,
+      "fn": 6,
+      "precision": 0.94,
+      "recall": 0.94,
+      "f1": 0.94
+    },
+    "CREDIT_CARD": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "DOB": {
+      "tp": 32,
+      "fp": 59,
+      "fn": 68,
+      "precision": 0.3516483516483517,
+      "recall": 0.32,
+      "f1": 0.33507853403141363
+    },
+    "EMAIL": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "IP_ADDRESS": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "PERSON": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 20,
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.888888888888889
+    },
+    "PHONE": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "SSN": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "sample_failures": [
+    {
+      "record_id": "R007",
+      "field": "contact",
+      "text": "K. Sharma",
+      "gold": [
+        [
+          "PERSON",
+          "K. Sharma"
+        ]
+      ],
+      "pred": []
+    },
+    {
+      "record_id": "R009",
+      "field": "dob",
+      "text": "DOB: 1989-10-10",
+      "gold": [
+        [
+          "DOB",
+          "1989-10-10"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1989-10-1"
+        ]
+      ]
+    },
+    {
+      "record_id": "R010",
+      "field": "contact",
+      "text": "Neha",
+      "gold": [
+        [
+          "PERSON",
+          "Neha"
+        ]
+      ],
+      "pred": []
+    },
+    {
+      "record_id": "R010",
+      "field": "dob",
+      "text": "DOB: 1990-11-11",
+      "gold": [
+        [
+          "DOB",
+          "1990-11-11"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1990-11-1"
+        ]
+      ]
+    },
+    {
+      "record_id": "R011",
+      "field": "dob",
+      "text": "12/12/1991",
+      "gold": [
+        [
+          "DOB",
+          "12/12/1991"
+        ]
+      ],
+      "pred": []
+    },
+    {
+      "record_id": "R012",
+      "field": "company",
+      "text": "Northstar Analytics Pvt. Ltd.",
+      "gold": [
+        [
+          "COMPANY",
+          "Northstar Analytics Pvt. Ltd."
+        ]
+      ],
+      "pred": [
+        [
+          "COMPANY",
+          "Northstar Analytics Pvt. Ltd"
+        ]
+      ]
+    },
+    {
+      "record_id": "R012",
+      "field": "dob",
+      "text": "DOB: 1992-01-13",
+      "gold": [
+        [
+          "DOB",
+          "1992-01-13"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1992-01-1"
+        ]
+      ]
+    },
+    {
+      "record_id": "R013",
+      "field": "dob",
+      "text": "DOB: 1993-02-14",
+      "gold": [
+        [
+          "DOB",
+          "1993-02-14"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1993-02-1"
+        ]
+      ]
+    },
+    {
+      "record_id": "R014",
+      "field": "dob",
+      "text": "DOB: 1994-03-15",
+      "gold": [
+        [
+          "DOB",
+          "1994-03-15"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1994-03-1"
+        ]
+      ]
+    },
+    {
+      "record_id": "R015",
+      "field": "dob",
+      "text": "DOB: 1995-04-16",
+      "gold": [
+        [
+          "DOB",
+          "1995-04-16"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1995-04-1"
+        ]
+      ]
+    },
+    {
+      "record_id": "R016",
+      "field": "dob",
+      "text": "DOB: 1996-05-17",
+      "gold": [
+        [
+          "DOB",
+          "1996-05-17"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1996-05-1"
+        ]
+      ]
+    },
+    {
+      "record_id": "R017",
+      "field": "contact",
+      "text": "A. Malhotra",
+      "gold": [
+        [
+          "PERSON",
+          "A. Malhotra"
+        ]
+      ],
+      "pred": []
+    },
+    {
+      "record_id": "R017",
+      "field": "dob",
+      "text": "DOB: 1997-06-18",
+      "gold": [
+        [
+          "DOB",
+          "1997-06-18"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1997-06-1"
+        ]
+      ]
+    },
+    {
+      "record_id": "R018",
+      "field": "dob",
+      "text": "DOB: 1998-07-19",
+      "gold": [
+        [
+          "DOB",
+          "1998-07-19"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1998-07-1"
+        ]
+      ]
+    },
+    {
+      "record_id": "R019",
+      "field": "dob",
+      "text": "DOB: 1999-08-20",
+      "gold": [
+        [
+          "DOB",
+          "1999-08-20"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1999-08-2"
+        ]
+      ]
+    },
+    {
+      "record_id": "R020",
+      "field": "contact",
+      "text": "Riya",
+      "gold": [
+        [
+          "PERSON",
+          "Riya"
+        ]
+      ],
+      "pred": []
+    },
+    {
+      "record_id": "R020",
+      "field": "dob",
+      "text": "DOB: 1980-09-21",
+      "gold": [
+        [
+          "DOB",
+          "1980-09-21"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1980-09-2"
+        ]
+      ]
+    },
+    {
+      "record_id": "R021",
+      "field": "dob",
+      "text": "DOB: 1981-10-22",
+      "gold": [
+        [
+          "DOB",
+          "1981-10-22"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1981-10-2"
+        ]
+      ]
+    },
+    {
+      "record_id": "R022",
+      "field": "dob",
+      "text": "23/11/1982",
+      "gold": [
+        [
+          "DOB",
+          "23/11/1982"
+        ]
+      ],
+      "pred": []
+    },
+    {
+      "record_id": "R023",
+      "field": "dob",
+      "text": "DOB: 1983-12-24",
+      "gold": [
+        [
+          "DOB",
+          "1983-12-24"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1983-12-2"
+        ]
+      ]
+    },
+    {
+      "record_id": "R024",
+      "field": "company",
+      "text": "BlueRiver Solutions Pvt. Ltd.",
+      "gold": [
+        [
+          "COMPANY",
+          "BlueRiver Solutions Pvt. Ltd."
+        ]
+      ],
+      "pred": [
+        [
+          "COMPANY",
+          "BlueRiver Solutions Pvt. Ltd"
+        ]
+      ]
+    },
+    {
+      "record_id": "R024",
+      "field": "dob",
+      "text": "DOB: 1984-01-25",
+      "gold": [
+        [
+          "DOB",
+          "1984-01-25"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1984-01-2"
+        ]
+      ]
+    },
+    {
+      "record_id": "R025",
+      "field": "dob",
+      "text": "DOB: 1985-02-26",
+      "gold": [
+        [
+          "DOB",
+          "1985-02-26"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1985-02-2"
+        ]
+      ]
+    },
+    {
+      "record_id": "R026",
+      "field": "dob",
+      "text": "DOB: 1986-03-27",
+      "gold": [
+        [
+          "DOB",
+          "1986-03-27"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1986-03-2"
+        ]
+      ]
+    },
+    {
+      "record_id": "R027",
+      "field": "contact",
+      "text": "K. Sharma",
+      "gold": [
+        [
+          "PERSON",
+          "K. Sharma"
+        ]
+      ],
+      "pred": []
+    },
+    {
+      "record_id": "R030",
+      "field": "contact",
+      "text": "Neha",
+      "gold": [
+        [
+          "PERSON",
+          "Neha"
+        ]
+      ],
+      "pred": []
+    },
+    {
+      "record_id": "R033",
+      "field": "dob",
+      "text": "07/10/1993",
+      "gold": [
+        [
+          "DOB",
+          "07/10/1993"
+        ]
+      ],
+      "pred": []
+    },
+    {
+      "record_id": "R036",
+      "field": "company",
+      "text": "Pinnacle Infra Pvt. Ltd.",
+      "gold": [
+        [
+          "COMPANY",
+          "Pinnacle Infra Pvt. Ltd."
+        ]
+      ],
+      "pred": [
+        [
+          "COMPANY",
+          "Pinnacle Infra Pvt. Ltd"
+        ]
+      ]
+    },
+    {
+      "record_id": "R036",
+      "field": "dob",
+      "text": "DOB: 1996-01-10",
+      "gold": [
+        [
+          "DOB",
+          "1996-01-10"
+        ]
+      ],
+      "pred": [
+        [
+          "DOB",
+          "1996-01-1"
+        ]
+      ]
+    },
+    {
+      "record_id": "R037",
+      "field": "contact",
+      "text": "A. Malhotra",
+      "gold": [
+        [
+          "PERSON",
+          "A. Malhotra"
+        ]
+      ],
+      "pred": []
+    }
+  ]
+}

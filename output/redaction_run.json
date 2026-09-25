@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "COMPANY": 182,
+    "ADDRESS": 51,
+    "PERSON": 389,
+    "PHONE": 30,
+    "EMAIL": 50
+  },
+  "unique_replacements": 434
+}

@@ -55,17 +55,6 @@ PII_Redaction_Tool/
 │   ├── anonymizer.py
 │   ├── replacement_store.py
 │   ├── validators.py
-│   │
-│   └── detectors/
-│       ├── email_detector.py
-│       ├── phone_detector.py
-│       ├── person_detector.py
-│       ├── company_detector.py
-│       ├── address_detector.py
-│       ├── ssn_detector.py
-│       ├── credit_card_detector.py
-│       ├── dob_detector.py
-│       └── ip_detector.py
 │
 ├── evaluation/
 │   ├── evaluator.py
